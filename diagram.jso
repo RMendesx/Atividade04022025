@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "author": "Rian Mendes",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "id": "pico",
+      "type": "wokwi-pi-pico",
+      "left": 0,
+      "top": 0,
+      "attrs": {}
+    },
+    {
+      "id": "led_red",
+      "type": "wokwi-led",
+      "left": 100,
+      "top": 50,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_yellow",
+      "type": "wokwi-led",
+      "left": 100,
+      "top": 150,
+      "attrs": {
+        "color": "yellow"
+      }
+    },
+    {
+      "id": "led_green",
+      "type": "wokwi-led",
+      "left": 100,
+      "top": 250,
+      "attrs": {
+        "color": "green"
+      }
+    }
+  ],
+  "connections": [
+    ["led_red:A", "pico:11", "green", ["v10", "h5", "*", "v-15", "h10"]],
+    ["led_yellow:A", "pico:12", "yellow", ["v10", "h5", "*", "v-15", "h10"]],
+    ["led_green:A", "pico:13", "green", ["v10", "h5", "*", "v-15", "h10"]],
+    ["led_red:GND", "pico:GND", "", []],
+    ["led_yellow:GND", "pico:GND", "", []],
+    ["led_green:GND", "pico:GND", "", []]
+  ]
+}

@@ -9,6 +9,6 @@ Olá avalidor, segue os passos para a execução do wokwi:
 
 3. No explorador, clique no arquivo 'diagram.json' e espere o loading.
 
-4. Na janela que for aberta clique em ' Start the simulation' e espere o progrrama começar.
+4. Na janela que for aberta clique em ' Start the simulation' e espere o programa iniciar.
 
 Se tudo correr bem, você verá a simulação do Wokwi na tela.
